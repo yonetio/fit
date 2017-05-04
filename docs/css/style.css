@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	text-align: center;
+}
+a:link,a:visited{
+	color:#a2a2a7;
+	text-decoration:none;
+}
+a:hover,a:active{
+	color:#4e4e4f;
+	text-decoration: underline;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #2f130d;
+}
+/*.inner{
+    width: ;
+    margin: 0 auto;
+}*/
+
+
+/* main ------------------------*/
+
+/*header img{
+	height: 660px;
+	position: absolute;
+	z-index: 100;
+	top:-10px;
+	left:13%;
+}*/
+
+/*contents-----------------------*/
+#contents{
+	/*background: #e0e7e2;*/
+	/*opacity: 0.3;*/
+	z-index: 0;
+}
+
+/*animals-----------*/
+/*@media(min-width:300px){
+    #cow img{
+		display: none;
+	}
+
+	#sheep img{
+		display: none;
+	}
+
+	#horse img{
+		display: none;
+	}
+}*/
+	#cow img{
+		width:400px;
+		position: absolute;
+		right:-30px;
+		top:550px;
+		z-index: 130;
+	}
+
+	#sheep img{
+		width:300px;
+		position: absolute;
+		left:-30px;
+		top:1000px;
+		z-index: 130;
+	}
+
+	#horse img{
+		width:400px;
+		position: absolute;
+		right:-30px;
+		top:1730px;
+		z-index: 130;
+	}
+
+
+/*main----------------*/
+
+#main{
+	/*width: 100%;*/
+    height:600px;
+    position:relative;
+    background:url(../img/bg.jpg)center center no-repeat;
+    background-size: cover;
+	padding-top:100px;
+
+}
+
+h1 img{
+	margin-top: 40px;
+	width:200px;
+}
+#main p{
+	margin-top: 10px;
+    font-size: 28px;
+    color: #000;
+
+}
+
+/*playfit-------------------*/
+
+#playfit{
+	margin: 50px 0 0 0;
+}
+
+#playfit img{
+	width:600px;
+	margin-bottom:50px;
+}
+
+#playfit p{
+	line-height: 1.8;
+	margin-bottom: 30px;
+}
+
+/*animetion------------------*/
+#animation{
+	margin: 50px 0 0 0;
+}
+#animation img{
+	width:580px;
+	margin-bottom:50px;
+}
+
+#animation p{
+	line-height: 1.8;
+	margin-bottom: 30px;
+}
+
+/*#play_puzzle{
+	width: 100%;
+	height: 200px;
+	background:url(../img/play_puzzle.jpg)center right no-repeat;
+	background-size:;
+}*/
+
+
+/*footer------------------*/
+footer{
+    height: 40px;
+    background-color: #cce198;
+}
+footer p{
+    padding-top: 15px;
+	font-size: 10px;
+
+}
+
+
+
+/*header .inner{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    margin-right: 28px;
+}
+header p{
+    font-family: "din-next-regular";
+	font-size:11px;
+	color:#9a9a9a;
+}*/
